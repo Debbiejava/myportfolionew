@@ -21,8 +21,8 @@ document.addEventListener("DOMContentLoaded", () => {
             prevEl: ".swiper-button-prev",
         },
         autoplay: {
-            delay: 3000,
-            disableOnInteraction: true,
+            delay: 1000,
+            disableOnInteraction: false,
         },
     });
 

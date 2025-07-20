@@ -245,20 +245,21 @@ section#roadmap {
         }
 
 
-/* ---------- Events Slider Section ---------- */
+/* ---------- Bright & Elegant Events Section ---------- */
 section#events {
-    background-color: #f2f8fc;
+    background-color: #fff9c4; /* Soft yellow/gold base */
     padding: 2.5rem 1.5rem;
     max-width: 1000px;
     margin: 2rem auto;
-    border-radius: 12px;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
 }
 
+    /* Section Title */
     section#events h2 {
         text-align: center;
         font-size: 2rem;
-        color: #004aad;
+        color: #3b5998; /* Light navy blue */
         margin-bottom: 2rem;
     }
 
@@ -268,37 +269,56 @@ section#events {
     padding-bottom: 3rem;
 }
 
-/* Each slide */
+/* Slide cards */
 .swiper-slide {
-    background-color: #f08080;
-    border-left: 4px solid #004aad;
-    padding: 1.5rem;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+    background-color: #ffffff;
+    border-left: 5px solid #2ecc71; /* Emerald green accent */
+    padding: 1.2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.04);
     text-align: center;
-    font-size: 1rem;
     color: #333;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 650px;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
 }
 
-    /* Headings in each slide */
-    .swiper-slide h3 {
-        font-size: 1.3rem;
-        color: #003580;
-        margin-bottom: 0.4rem;
+    .swiper-slide:hover {
+        transform: translateY(-4px);
     }
 
-/* Swiper nav buttons */
+    /* Slide images */
+    .swiper-slide img {
+        width: 100%;
+        height: auto;
+        max-height: 350px;
+        object-fit: contain;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+    }
+
+    /* Slide headings */
+    .swiper-slide h3 {
+        font-size: 1.25rem;
+        color: #800080; /* Deep purple for titles */
+        margin-bottom: 0.5rem;
+    }
+
+    /* Slide descriptions */
+    .swiper-slide p {
+        font-size: 1rem;
+        color: #333;
+    }
+
+/* Navigation arrows */
 .swiper-button-next,
 .swiper-button-prev {
-    color: #004aad;
+    color: #004aad; /* Rich blue for navigation */
 }
 
 /* ---------- Publications Section ---------- */
 section#publications {
-    background-color: #2ecc71;
+    background-color: #fff9c4;
     padding: 2.5rem 1.5rem;
     max-width: 1000px;
     margin: 2rem auto;

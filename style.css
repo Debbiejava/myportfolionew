@@ -98,19 +98,19 @@ section#about {
 
 /* ---------- Company Blocks ---------- */
 .company-block {
-  padding: 1.2rem;
-  border-radius: 6px;
+  padding: 2.5rem;
+  border-radius: 18px;
   margin-bottom: 2rem;
 }
 
 .profit {
-  background-color: #f5f9ff;
-  border-left: 5px solid #004aad;
+    background-color: #FFD700;
+    border-left: 5px solid #004aad;
 }
 
 .ngo {
-  background-color: #f5f9ff;
-  border-left: 5px solid #004aad;
+    background-color: #FFD700;
+    border-left: 5px solid #004aad;
 }
 
 .company-logo {
@@ -120,8 +120,10 @@ section#about {
 }
 
 .company-block h3 a {
-  text-decoration: none;
-  font-weight: bold;
+    color: #004aad;
+    text-decoration: none;
+    font-weight: bold 
+    
 }
 
 .profit h3 a {
@@ -247,11 +249,10 @@ section#roadmap {
 
 /* ---------- Bright & Elegant Events Section ---------- */
 section#events {
-    background-color: #fff9c4; /* Soft yellow/gold base */
-    padding: 2.5rem 1.5rem;
+    background-color: #007FFF;
     max-width: 1000px;
     margin: 2rem auto;
-    border-radius: 16px;
+    border-radius: 26px;
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
 }
 
@@ -259,7 +260,7 @@ section#events {
     section#events h2 {
         text-align: center;
         font-size: 2rem;
-        color: #3b5998; /* Light navy blue */
+        color: #ffffff;
         margin-bottom: 2rem;
     }
 
@@ -278,7 +279,7 @@ section#events {
     box-shadow: 0 2px 12px rgba(0,0,0,0.04);
     text-align: center;
     color: #333;
-    max-width: 650px;
+    max-width: 300px;
     margin: 0 auto;
     transition: transform 0.3s ease;
 }
@@ -318,7 +319,7 @@ section#events {
 
 /* ---------- Publications Section ---------- */
 section#publications {
-    background-color: #fff9c4;
+    background-color: #FFD700;
     padding: 2.5rem 1.5rem;
     max-width: 1000px;
     margin: 2rem auto;

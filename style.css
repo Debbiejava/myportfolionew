@@ -104,7 +104,7 @@ section#about {
 }
 
 .profit {
-    background-color: darkslategray;
+    background-color: #FFD700;
     border-left: 5px solid #004aad;
     border-right: 5px solid #004aad;
 }
@@ -314,7 +314,7 @@ section#publications {
 
 /* ---------- Contact Form Styling ---------- */
 section#contact {
-    background-color: darkslategrey;
+    background-color: #f2f8fc;
     padding: 2.5rem;
     max-width: 500px;
     margin: 2rem auto;

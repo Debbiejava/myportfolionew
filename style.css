@@ -288,7 +288,7 @@ section#events {
 }
 
 .swiper-slide {
-    background-color: #ffffff;
+    background-color: #007FFF;
     border-left: 5px solid #2ecc71;
     padding: 1.2rem;
     border-radius: 12px;
@@ -296,7 +296,7 @@ section#events {
     text-align: center;
     color: #333;
     width: 80%;
-    max-width: 350px;
+    max-width: 400px;
     margin: 0 auto;
     transition: transform 0.3s ease;
 }
@@ -327,7 +327,7 @@ section#events {
 
 .swiper-button-next,
 .swiper-button-prev {
-    color: #007FFF;
+    color: #ffffff;
 }
 
 /* ---------- Publications Section ---------- */

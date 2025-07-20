@@ -308,7 +308,7 @@ section#events {
     .swiper-slide img {
         width: 100%;
         height: auto;
-        max-height: 350px;
+        max-height: 400px;
         object-fit: contain;
         border-radius: 12px;
         margin-bottom: 1rem;
@@ -316,7 +316,7 @@ section#events {
 
     .swiper-slide h3 {
         font-size: 1.25rem;
-        color: #800080;
+        color: white;
         margin-bottom: 0.5rem;
     }
 

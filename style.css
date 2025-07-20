@@ -262,83 +262,6 @@ section#roadmap {
         }
 
 
-/* ---------- Bright & Elegant Events Section ---------- */
-section#events {
-    background-color: #007FFF;
-    padding: 2.5rem 1.5rem;
-    max-width: 1000px;
-    margin: 2rem auto;
-    border-radius: 26px;
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
-}
-
-    /* Section Title */
-    section#events h2 {
-        text-align: center;
-        font-size: 2rem;
-        color: #ffffff;
-        margin-bottom: 2rem;
-    }
-
-/* Swiper container */
-.swiper {
-    width: 100%;
-    padding-bottom: 3rem;
-}
-/* Swiper Wrapper Fix */
-.swiper-wrapper {
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-
-/* Slide cards */
-.swiper-slide {
-    background-color: #ffffff;
-    border-left: 5px solid #2ecc71; /* Emerald green accent */
-    padding: 1.2rem;
-    border-radius: 12px;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.04);
-    text-align: center;
-    color: #333;
-    width: 80%;
-    max-width: 350px;
-    margin: 0 auto;
-    transition: transform 0.3s ease;
-}
-
-    .swiper-slide:hover {
-        transform: translateY(-4px);
-    }
-
-    /* Slide images */
-    .swiper-slide img {
-        width: 100%;
-        height: auto;
-        max-height: 350px;
-        object-fit: contain;
-        border-radius: 12px;
-        margin-bottom: 1rem;
-    }
-
-    /* Slide headings */
-    .swiper-slide h3 {
-        font-size: 1.25rem;
-        color: #800080; /* Deep purple for titles */
-        margin-bottom: 0.5rem;
-    }
-
-    /* Slide descriptions */
-    .swiper-slide p {
-        font-size: 1rem;
-        color: #333;
-    }
-
-/* Navigation arrows */
-.swiper-button-next,
-.swiper-button-prev {
-    color: #004aad; /* Rich blue for navigation */
-}
 
 /* ---------- Publications Section ---------- */
 section#publications {
@@ -391,7 +314,7 @@ section#publications {
 
 /* ---------- Contact Form Styling ---------- */
 section#contact {
-    background-color: #f2f8fc;
+    background-color: darkslategrey;
     padding: 2.5rem;
     max-width: 500px;
     margin: 2rem auto;

@@ -261,7 +261,74 @@ section#roadmap {
             line-height: 1.6;
         }
 
+section#events {
+    background-color: #007FFF;
+    padding: 2.5rem 1.5rem;
+    max-width: 1000px;
+    margin: 2rem auto;
+    border-radius: 26px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+}
 
+    section#events h2 {
+        text-align: center;
+        font-size: 2rem;
+        color: #ffffff;
+        margin-bottom: 2rem;
+    }
+
+.swiper {
+    width: 100%;
+    padding-bottom: 3rem;
+}
+
+.swiper-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.swiper-slide {
+    background-color: #ffffff;
+    border-left: 5px solid #2ecc71;
+    padding: 1.2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+    text-align: center;
+    color: #333;
+    width: 80%;
+    max-width: 350px;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+}
+
+    .swiper-slide:hover {
+        transform: translateY(-4px);
+    }
+
+    .swiper-slide img {
+        width: 100%;
+        height: auto;
+        max-height: 350px;
+        object-fit: contain;
+        border-radius: 12px;
+        margin-bottom: 1rem;
+    }
+
+    .swiper-slide h3 {
+        font-size: 1.25rem;
+        color: #800080;
+        margin-bottom: 0.5rem;
+    }
+
+    .swiper-slide p {
+        font-size: 1rem;
+        color: #333;
+    }
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #004aad;
+}
 
 /* ---------- Publications Section ---------- */
 section#publications {

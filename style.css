@@ -85,7 +85,7 @@ section#about {
 }
 
 .skill-category {
-  background-color: slategrey;
+  background-color: #EE82EE;
   padding: 1rem;
   border-radius: 6px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.03);
@@ -104,7 +104,7 @@ section#about {
 }
 
 .profit {
-    background-color: #FFD700;
+    background-color: darkslategray;
     border-left: 5px solid #004aad;
     border-right: 5px solid #004aad;
 }

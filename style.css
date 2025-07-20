@@ -1,0 +1,277 @@
+/* ---------- Base Styles ---------- */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #f2f8fc, #e9f0fa);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------- Hero Section ---------- */
+.hero {
+  background: linear-gradient(to right, #004aad, #0077cc);
+  color: white;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.typewriter-wrapper {
+  max-width: 650px;
+  margin: auto;
+}
+
+.profile-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* ---------- Section Layout ---------- */
+/* ---------- About Section ---------- */
+section#about {
+    background-color: #fdfdfd;
+    padding: 2.5rem;
+    margin: 2rem auto;
+    max-width: 1000px;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+    line-height: 1.7;
+}
+
+    section#about h2 {
+        color: #004aad;
+        font-size: 2rem;
+        text-align: center;
+        margin-bottom: 1.2rem;
+    }
+
+    section#about p {
+        font-size: 1.05rem;
+        color: #333;
+        margin-bottom: 1rem;
+    }
+
+    section#about h3 {
+        color: #004aad;
+        margin-top: 2rem;
+        font-size: 1.3rem;
+    }
+
+    section#about ul {
+        padding-left: 1.2rem;
+        margin-top: 0.8rem;
+    }
+
+        section#about ul li {
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+            line-height: 1.6;
+        }
+
+/* ---------- Skills Grid ---------- */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.skill-category {
+  background-color: #f4f9ff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+}
+
+.skill-category h3 {
+  color: #004aad;
+  margin-bottom: 0.7rem;
+}
+
+/* ---------- Company Blocks ---------- */
+.company-block {
+  padding: 1.2rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.profit {
+  background-color: #f5f9ff;
+  border-left: 5px solid #004aad;
+}
+
+.ngo {
+  background-color: #f1fcf5;
+  border-left: 5px solid #009d5f;
+}
+
+.company-logo {
+  width: 120px;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.company-block h3 a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.profit h3 a {
+  color: #004aad;
+}
+
+.ngo h3 a {
+  color: #009d5f;
+}
+
+/* ---------- Completed Projects Section ---------- */
+section#projects {
+    background-color: #fefefe;
+    padding: 2.5rem 1.5rem;
+    max-width: 1000px;
+    margin: 2rem auto;
+    border-radius: 12px;
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.06);
+}
+
+    section#projects h2 {
+        font-size: 2rem;
+        color: #004aad;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+.project {
+    background-color: #f5f9ff;
+    border-left: 5px solid #004aad;
+    padding: 1rem 1.3rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+    transition: transform 0.25s ease;
+}
+
+    .project:hover {
+        transform: translateY(-5px);
+    }
+
+    .project h3 {
+        margin-top: 0;
+        font-size: 1.3rem;
+        color: #003580;
+        margin-bottom: 0.5rem;
+    }
+
+    .project p {
+        font-size: 1rem;
+        line-height: 1.6;
+        margin-bottom: 0.5rem;
+        color: #333;
+    }
+
+    .project a {
+        color: #004aad;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+        .project a:hover {
+            text-decoration: underline;
+        }
+
+.tag {
+    display: inline-block;
+    background-color: #004aad;
+    color: #fff;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.85rem;
+    border-radius: 20px;
+    margin-top: 0.6rem;
+}
+
+/* ---------- Publications Section ---------- */
+section#publications {
+    background-color: #fff;
+    padding: 2.5rem 1.5rem;
+    max-width: 1000px;
+    margin: 2rem auto;
+    border-radius: 12px;
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.06);
+}
+
+    section#publications h2 {
+        font-size: 2rem;
+        color: #004aad;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    section#publications ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+        section#publications ul li {
+            background-color: #f7faff;
+            border-left: 4px solid #004aad;
+            margin-bottom: 1rem;
+            padding: 0.9rem 1.2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.02);
+            transition: transform 0.2s ease;
+        }
+
+            section#publications ul li:hover {
+                transform: translateY(-4px);
+            }
+
+    section#publications a {
+        color: #003580;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+        section#publications a:hover {
+            color: #004aad;
+            text-decoration: underline;
+        }
+
+/* ---------- Contact Form ---------- */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form textarea {
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+form button {
+  padding: 0.7rem;
+  background: #004aad;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 1.2rem;
+}

@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>OluwaseunAdebayo | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="typewriter.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OluwaseunAdebayo | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="typewriter.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 </head>
 <body>
 
@@ -23,7 +25,7 @@
         <h2>About Me</h2>
 
         <p>
-            I'm Oluwaseun Deborah Adebayo, a multi-talented individual who loves to know something about everything. By profession, I'm a Microsoft Certified Trainer (MCT), Governance & Compliance consultant, and hands-on cybersecurity strategist. With over five years of experience securing cloud-native environments, I specialize in building scalable solutions using Microsoft Sentinel, Defender XDR, Purview, and Azure AD. My work is guided by global standards like ISO 27001, NIST, and SOC 2, ensuring innovation is always anchored in trust.
+            I'm Oluwaseun Deborah Adebayo, a multi-talented individual who loves to know something about everything. By profession, I'm a Microsoft Certified Trainer (MCT), Governance & Compliance consultant, and hands-on cloud security and cybersecurity strategist. With over five years of experience securing cloud-native environments, I specialize in building scalable solutions using Microsoft Sentinel, Defender XDR, Purview, and Azure AD. My work is guided by global standards like ISO 27001, NIST, and SOC 2, ensuring innovation is always anchored in trust.
         </p>
 
         <p>
@@ -251,16 +253,49 @@
         </div>
     </section>
 
-    <!-- 🖼️ Event Gallery -->
+    <!-- 🗓️ Events Slider Section -->
     <section id="events">
-        <h2>Event Gallery</h2>
-        <div class="slider">
-            <img src="event1.jpg" alt="Event 1" />
-            <img src="event2.jpg" alt="Event 2" />
-            <img src="event3.jpg" alt="Event 3" />
-            <img src="event4.jpg" alt="Event 4" />
-            <img src="event5.jpg" alt="Event 5" />
-            <img src="event6.jpg" alt="Event 6" />
+        <h2>Events</h2>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <h3>Event 1</h3>
+                    <p>Workshop</p>
+                </div>
+
+                <div class="swiper-slide">
+                    <h3>Event 2</h3>
+                    <p>Presentation</p>
+                </div>
+                <div class="swiper-slide">
+                    <h3>Event 3</h3>
+                    <p>Mentoring Session</p>
+                </div>
+                <div class="swiper-slide">
+                    <h3>Event 4</h3>
+                    <p>MS Fundamental Training</p>
+                </div>
+                <div class="swiper-slide">
+                    <h3>Event 5</h3>
+                    <p>Data Security&Intelligence Training</p>
+                </div>
+                <div class="swiper-slide">
+                    <h3>Event 6</h3>
+                    <p>Penetration Testing Training</p>
+                </div>
+                <div class="swiper-slide">
+                    <h3>Event 2</h3>
+                    <p>Description of event 2 goes here</p>
+                </div>
+
+                <!-- Add more slides here -->
+
+            </div>
+
+            <!-- Add navigation buttons (optional) -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
     </section>
 
@@ -282,10 +317,16 @@
     <!-- 📬 Contact -->
     <section id="contact">
         <h2>Book a Consultation</h2>
-        <form>
-            <input type="text" name="name" placeholder="Your Name" />
-            <input type="email" name="email" placeholder="Your Email" />
-            <textarea name="message" placeholder="Your Message"></textarea>
+        <!-- ✅ Replace this form block -->
+        <form action="https://formsubmit.co/oludeyo@gmail.com" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" required>
+
+            <label for="message">Consultation Message:</label>
+            <textarea name="message" required></textarea>
             <button type="submit">Send Message</button>
         </form>
     </section>

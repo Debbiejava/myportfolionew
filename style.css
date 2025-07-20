@@ -26,8 +26,8 @@ body {
 
 .profile-img {
   width: 140px;
-  height: 140px;
-  border-radius: 50%;
+  height: 160px;
+  border-radius: 60%;
   object-fit: cover;
   margin-bottom: 1rem;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
@@ -78,14 +78,16 @@ section#about {
 /* ---------- Skills Grid ---------- */
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  padding-left: 2.0rem;
+  padding-right: 2.0rem;
   gap: 1.5rem;
 }
 
 .skill-category {
-  background-color: #f4f9ff;
+  background-color: #fdfdfd;
   padding: 1rem;
-  border-radius: 8px;
+  border-radius: 6px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.03);
 }
 
@@ -97,7 +99,7 @@ section#about {
 /* ---------- Company Blocks ---------- */
 .company-block {
   padding: 1.2rem;
-  border-radius: 8px;
+  border-radius: 6px;
   margin-bottom: 2rem;
 }
 
@@ -107,8 +109,8 @@ section#about {
 }
 
 .ngo {
-  background-color: #f1fcf5;
-  border-left: 5px solid #009d5f;
+  background-color: #f5f9ff;
+  border-left: 5px solid #004aad;
 }
 
 .company-logo {
@@ -127,7 +129,7 @@ section#about {
 }
 
 .ngo h3 a {
-  color: #009d5f;
+  color: #004aad;
 }
 
 /* ---------- Completed Projects Section ---------- */
@@ -195,9 +197,108 @@ section#projects {
     margin-top: 0.6rem;
 }
 
+/* ---------- Upcoming Projects Section ---------- */
+section#roadmap {
+    background-color: #fefefe;
+    padding: 2.5rem 1.5rem;
+    max-width: 1000px;
+    margin: 2rem auto;
+    border-radius: 12px;
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.06);
+}
+
+    section#roadmap h2 {
+        font-size: 2rem;
+        color: #004aad;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    /* Limit width of each project card */
+    section#roadmap .project {
+        background-color: #f5f9ff;
+        border-left: 4px solid #004aad;
+        padding: 1.3rem 1.4rem;
+        border-radius: 10px;
+        margin-bottom: 1.5rem;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+        transition: transform 0.25s ease;
+    }
+
+        section#roadmap .project:hover {
+            transform: translateY(-5px);
+        }
+
+        section#roadmap .project h3 {
+            font-size: 1.3rem;
+            color: #003580;
+            margin-bottom: 0.5rem;
+        }
+
+        section#roadmap .project p {
+            font-size: 1rem;
+            color: #333;
+            line-height: 1.6;
+        }
+
+
+/* ---------- Events Slider Section ---------- */
+section#events {
+    background-color: #f2f8fc;
+    padding: 2.5rem 1.5rem;
+    max-width: 1000px;
+    margin: 2rem auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+    section#events h2 {
+        text-align: center;
+        font-size: 2rem;
+        color: #004aad;
+        margin-bottom: 2rem;
+    }
+
+/* Swiper container */
+.swiper {
+    width: 100%;
+    padding-bottom: 3rem;
+}
+
+/* Each slide */
+.swiper-slide {
+    background-color: #f08080;
+    border-left: 4px solid #004aad;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+    text-align: center;
+    font-size: 1rem;
+    color: #333;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    /* Headings in each slide */
+    .swiper-slide h3 {
+        font-size: 1.3rem;
+        color: #003580;
+        margin-bottom: 0.4rem;
+    }
+
+/* Swiper nav buttons */
+.swiper-button-next,
+.swiper-button-prev {
+    color: #004aad;
+}
+
 /* ---------- Publications Section ---------- */
 section#publications {
-    background-color: #fff;
+    background-color: #2ecc71;
     padding: 2.5rem 1.5rem;
     max-width: 1000px;
     margin: 2rem auto;
@@ -244,34 +345,76 @@ section#publications {
             text-decoration: underline;
         }
 
-/* ---------- Contact Form ---------- */
+/* ---------- Contact Form Styling ---------- */
+section#contact {
+    background-color: #f2f8fc;
+    padding: 2.5rem;
+    max-width: 500px;
+    margin: 2rem auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+}
+
+    section#contact h2 {
+        text-align: center;
+        font-size: 2rem;
+        color: #004aad;
+        margin-bottom: 1.8rem;
+    }
+
 form {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
 }
 
-form input,
-form textarea {
-  padding: 0.7rem;
-  margin-bottom: 1rem;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  font-size: 1rem;
-}
+    form label {
+        font-weight: 600;
+        color: #333;
+    }
 
-form button {
-  padding: 0.7rem;
-  background: #004aad;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
+    form input,
+    form textarea {
+        padding: 0.9rem 1rem;
+        font-size: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background-color: #ffffff;
+        transition: border 0.2s ease;
+    }
+
+        form input:focus,
+        form textarea:focus {
+            border: 1px solid #004aad;
+            outline: none;
+        }
+
+    form textarea {
+        resize: vertical;
+        min-height: 120px;
+    }
+
+    form button[type="submit"] {
+        background-color: #004aad;
+        color: #fff;
+        border: none;
+        padding: 0.9rem 1.2rem;
+        font-size: 1rem;
+        font-weight: 600;
+        border-radius: 12px;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+    }
+
+        form button[type="submit"]:hover {
+            background-color: #003580;
+        }
 
 /* ---------- Footer ---------- */
 footer {
-  background: #222;
-  color: white;
-  text-align: center;
-  padding: 1.2rem;
+    background-color: #FFD700; /* Brighter gold tone */
+    color: #333;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 0.95rem;
 }

@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
     type();
-    const swiper = new Swiper(".swiper", {
+    <script>const swiper = new Swiper(".swiper", {
         slidesPerView: 1,
         spaceBetween: 20,
         loop: true,
@@ -22,8 +22,8 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         autoplay: {
             delay: 1000,
-            disableOnInteraction: false,
+            disableOnInteraction: true,
         },
-    });
+    });</script>
 
 });

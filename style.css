@@ -262,7 +262,7 @@ section#roadmap {
         }
 
 section#events {
-    background-color: #f2f8fc;
+    background-color: lemonchiffon;
     padding: 2.5rem 1.5rem;
     max-width: 1000px;
     margin: 2rem auto;
@@ -273,7 +273,7 @@ section#events {
     section#events h2 {
         text-align: center;
         font-size: 2rem;
-        color: #ffffff;
+        color: purple;
         margin-bottom: 2rem;
     }
 
@@ -288,7 +288,7 @@ section#events {
 }
 
 .swiper-slide {
-    background-color: #007FFF;
+    background-color: blueviolet;
     border-left: 5px solid #2ecc71;
     padding: 1.2rem;
     border-radius: 12px;
@@ -327,7 +327,7 @@ section#events {
 
 .swiper-button-next,
 .swiper-button-prev {
-    color: #ffffff;
+    color: forestgreen;
 }
 
 /* ---------- Publications Section ---------- */

@@ -1,18 +1,21 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const text = "Oluwaseun Deborah Adebayo";
-  const target = document.getElementById("typewriter-text");
-  let index = 0;
+    // Typewriter Effect
+    const text = "Oluwaseun Deborah Adebayo";
+    const target = document.getElementById("typewriter-text");
+    let index = 0;
 
-  function type() {
-    if (index < text.length) {
-      target.innerHTML += text.charAt(index);
-      index++;
-      setTimeout(type, 120);
+    function type() {
+        if (index < text.length) {
+            target.innerHTML += text.charAt(index);
+            index++;
+            setTimeout(type, 120);
+        }
     }
-  }
 
     type();
-    <script>const swiper = new Swiper(".swiper", {
+
+    // Swiper Slider Initialization
+    const swiper = new Swiper(".swiper", {
         slidesPerView: 1,
         spaceBetween: 20,
         loop: true,
@@ -21,9 +24,8 @@ document.addEventListener("DOMContentLoaded", () => {
             prevEl: ".swiper-button-prev",
         },
         autoplay: {
-            delay: 2000,
+            delay: 3000,
             disableOnInteraction: false,
         },
-    });</script>
-
+    });
 });
